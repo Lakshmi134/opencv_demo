@@ -18,6 +18,7 @@ out = cv2.VideoWriter('output.avi',fourcc, 20.0,(int(cap.get(3)*0.75),int(cap.ge
 if(cap.isOpened() == False):
 	print("error opening the file")
 
+#comment
 while(cap.isOpened()):
 	ret, frame = cap.read()
 	
